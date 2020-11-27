@@ -1,0 +1,381 @@
+body {
+    margin: 0px;
+}
+
+/*BACKGROUND_1*/
+.mainblock_1 {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mainblock_1 .block_size {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_1 {
+    background: #5e5373;
+}
+
+.block_2, .block_3 {
+    background: #18b5a4;
+}
+
+
+/*BACKGROUND_2*/
+.mainblock_2 {
+    height: 100vh;
+    background-image: url('../img/bg_repeat.jpg');
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    border: #3a5856 15px solid;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.mainblock_2 .image img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.mainblock_3 {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.mainblock_1 .block_size_2 {
+
+}
+
+.background_2 {
+    background: #18b5a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+
+/*BACKGROUND_3*/
+.background_3 {
+    background: #5e5373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.mainblock_3 .background_2 {
+    background-image: url("../img/smoke_PNG55225.png");
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    background-size: contain;
+}
+
+.mainblock_3 .background_3 {
+    background-image: url("../img/smoke_PNG55225.png");
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    background-size: contain;
+    transform: rotate(180deg);
+}
+
+.blur {
+    height: 100%;
+    width: 100%;
+    transition: all 500ms ease;
+}
+
+.blur:hover {
+    backdrop-filter: blur(5px);
+}
+
+
+/*BACKGROUND_4*/
+.mainblock_4 {
+    height: 100vh;
+    background-image: url("../img/gif/QueasyGoodnaturedEasteuropeanshepherd-size_restricted.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*container_smile*/
+.container {
+    height: 100vh;
+    background: #5e5373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.smile {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: yellow;
+    position: relative;
+}
+
+.eye {
+    height: 75px;
+    width: 45px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 155px;
+}
+
+.pupil_r, .pupil_l {
+    height: 25px;
+    width: 15px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 185px;
+}
+
+.right {
+    right: 150px;
+}
+
+.left {
+    left: 150px;
+}
+
+.pupil_r {
+    right: 150px;
+}
+
+.pupil_l {
+    left: 180px;
+}
+
+.mouth {
+    width: 135px;
+    height: 50px;
+    border-radius: 0 0 20px 20px;
+    background: red;
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouth:hover {
+    border-radius: 70%;
+    transition: all 500ms ease;
+}
+
+.eye:hover {
+    transform: scale(1.2);
+    transition: all 500ms ease;
+}
+
+
+/*TREE*/
+.mainblock_5 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #868585;
+}
+
+.main_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scale(0.8);
+    width: 425px;
+    height: 425px;
+    background: powderblue;
+    border-radius: 50%;
+    position: relative;
+}
+
+.tree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: -75px 0 0;
+    transform: scale(0.8);
+}
+
+.one {
+    list-style: none;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid darkgreen;
+    padding: 0;
+    position: relative;
+    border-radius: 50px;
+}
+
+.two {
+    width: 0;
+    height: 0;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 90px solid darkgreen;
+    position: relative;
+    border-radius: 50px;
+    padding: 30px;
+    margin: -100px 0 0;
+}
+
+.three {
+    width: 0;
+    height: 0;
+    border-left: 115px solid transparent;
+    border-right: 115px solid transparent;
+    border-bottom: 115px solid darkgreen;
+    position: relative;
+    border-radius: 50px;
+    padding: 30px;
+    margin: -100px 0 0;
+}
+
+.four {
+    width: 0;
+    height: 0;
+    border-left: 145px solid transparent;
+    border-right: 145px solid transparent;
+    border-bottom: 145px solid darkgreen;
+    position: relative;
+    border-radius: 50px;
+    padding: 30px;
+    margin: -115px 0 0;
+}
+
+.four::after {
+    content: '';
+    position: absolute;
+    height: 55px;
+    width: 50px;
+    background: #654321;
+    bottom: -199px;
+    left: calc(50% - 25px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.one li {
+    background: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    animation: blink 3s ease infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    list-style-type: none;
+}
+
+.one li:nth-of-type(2) {
+    background: orange;
+    top: 60px;
+    left: -60px;
+    animation: blink 4s ease infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+
+.two li {
+    background: blue;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    animation: blink 4s ease infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+    list-style-type: none;
+}
+
+.three li {
+    background: orange;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 115px;
+    left: 80px;
+    animation: blink 4s ease infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+    list-style-type: none;
+}
+
+.three li:nth-of-type(2) {
+    background: purple;
+    top: 130px;
+    left: -60px;
+    animation-delay: 2s;
+    animation: blink 4s ease infinite;
+    animation-fill-mode: forwards;
+}
+
+.four li {
+    background: yellow;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: -30px;
+    animation: blink 4s ease infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+    list-style-type: none;
+}
+
+.four li:nth-of-type(2) {
+    background: blue;
+    top: 160px;
+    left: 110px;
+    animation: blink 3s ease infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
